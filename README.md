@@ -17,3 +17,11 @@ Execute any code.
 Make changes to the request and the response objects.
 End the request-response cycle.
 Call the next middleware function in the stack.
+
+
+
+integrating mongodb in nodejs+expressjs:
+---------------------------------------
+
+1.first create express server.
+2.integrate mongodb using mongoose library
