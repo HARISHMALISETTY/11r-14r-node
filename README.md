@@ -25,3 +25,15 @@ integrating mongodb in nodejs+expressjs:
 
 1.first create express server.
 2.integrate mongodb using mongoose library
+
+
+
+
+bcrypt module is a nodejs  popular library used for encrypting the senstive information before storing in database for better secure.
+
+1.generate salt
+2.hashing
+3.comparing
+
+
+paswrd---harish---cbekjfnfchbvcvefvewcv--store in db

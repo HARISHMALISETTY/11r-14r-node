@@ -1,8 +1,10 @@
+require("dotenv").config();
+
 const mongoose = require("mongoose");
 
 function dbConnect() {
   mongoose
-    .connect("mongodb://127.0.0.1:27017/facebook")
+    .connect(`mongodb://${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`)
     .then(() => {
       console.log("db connected");
     })
